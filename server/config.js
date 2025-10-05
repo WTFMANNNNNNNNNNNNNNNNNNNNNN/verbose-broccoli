@@ -3,7 +3,7 @@ module.exports = {
 
     // Game server domain.
     // If the host is 'localhost:NUMBER', the NUMBER must be the port setting.
-    host: "localhost:3000",
+    host: "https://verbose-broccoli-thby.onrender.com:3000",
 
     // Which port to run the web server on.
     port: 3000,
@@ -30,7 +30,7 @@ module.exports = {
             LOAD_ON_MAINSERVER: false,
             // This is very important where the host is actually being hosted. Keep in mind that the ports gets changed to 3000, to 3001, and it repeats with the other servers.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's host instead.
-            HOST: "localhost:3001",
+            HOST: "https://verbose-broccoli-thby.onrender.com:3001",
             // The port where to host from.
             // Keep in mind that if "LOAD_ON_MAINSERVER" is set to true then this code will be replaced with the main server's port instead.
             PORT: 3001,
@@ -237,7 +237,7 @@ module.exports = {
     // Default values for gamemode related things.
     // Do not change these, you'll likely break stuff!
     // Change GAME_MODES instead.
-    ENABLE_FOOD: true,
+    ENABLE_FOOD: false,
     GAMEMODE_NAME_PREFIXES: [],
     SPECIAL_BOSS_SPAWNS: false,
     CLASSIC_SIEGE: false,
